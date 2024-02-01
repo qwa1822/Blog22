@@ -1,0 +1,17 @@
+.ImageSlider__fade-enter {
+  opacity: 0;
+}
+
+.ImageSlider__fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ImageSlider__fade-exit {
+  opacity: 1;
+}
+
+.ImageSlider__fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
